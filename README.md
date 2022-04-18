@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # HW-3 MOUSA ALAKESH 200449200
 
 This project is to design and build a REST-based web application that supports the following two services: 
@@ -17,3 +18,8 @@ Runs both cleint and server in the same terminal!
 Server app listening at http://localhost:3000
 
 erver running at http://localhost:1234 
+=======
+# MERN-HW-IOT
+
+Run 'npm run dev' to run both server and client in the same terminal.
+>>>>>>> aa8f4cc756c47cd5a4f8d2546388ac6a96e801d9
