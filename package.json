@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev:api": "nodemon ./back-end/server.js",
+    "dev:api": "nodemon ./back-end/server.tsx",
     "devC": "parcel index.html",
     "devS": "cd back-end && nodemon server.tsx",
     "dev": "concurrently -n 'server,client' -c 'red,green' \"npm run devS\" \" npm run devC\""

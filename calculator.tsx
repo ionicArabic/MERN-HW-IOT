@@ -18,7 +18,7 @@ function MyForm() {
     setInputs(values => ({...values, [name]: value}));
     setErr('');
     setResult('');
-    console.log(numbers);
+    console.log(event.target.value);
   }
 
   const handleSubmit = (event) => {

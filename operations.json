@@ -1,0 +1,385 @@
+[{
+  "_id": {
+    "$oid": "62447d2001d551da20578463"
+  },
+  "firestNumber": 12,
+  "secondNumber": 6,
+  "result": 18,
+  "operation": "+",
+  "createdAt": {
+    "$date": "2022-03-30T15:54:08.695Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62447d2401d551da20578465"
+  },
+  "firestNumber": 12,
+  "secondNumber": 6,
+  "result": 6,
+  "operation": "-",
+  "createdAt": {
+    "$date": "2022-03-30T15:54:12.023Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62447d2701d551da20578467"
+  },
+  "firestNumber": 12,
+  "secondNumber": 6,
+  "result": 72,
+  "operation": "*",
+  "createdAt": {
+    "$date": "2022-03-30T15:54:15.081Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62447d2901d551da20578469"
+  },
+  "firestNumber": 12,
+  "secondNumber": 6,
+  "result": 2,
+  "operation": "/",
+  "createdAt": {
+    "$date": "2022-03-30T15:54:17.133Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62447d3401d551da2057846b"
+  },
+  "firestNumber": 6,
+  "secondNumber": 3,
+  "result": 9,
+  "operation": "+",
+  "createdAt": {
+    "$date": "2022-03-30T15:54:28.819Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62447d3701d551da2057846d"
+  },
+  "firestNumber": 6,
+  "secondNumber": 3,
+  "result": 3,
+  "operation": "-",
+  "createdAt": {
+    "$date": "2022-03-30T15:54:31.083Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62447d3901d551da2057846f"
+  },
+  "firestNumber": 6,
+  "secondNumber": 3,
+  "result": 18,
+  "operation": "*",
+  "createdAt": {
+    "$date": "2022-03-30T15:54:33.295Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62447d3b01d551da20578471"
+  },
+  "firestNumber": 6,
+  "secondNumber": 3,
+  "result": 2,
+  "operation": "/",
+  "createdAt": {
+    "$date": "2022-03-30T15:54:35.659Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6244c5c8346debc17199c5c1"
+  },
+  "firestNumber": 4,
+  "secondNumber": 4,
+  "result": 8,
+  "operation": "+",
+  "createdAt": {
+    "$date": "2022-03-30T21:04:08.879Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6244c5cb346debc17199c5c3"
+  },
+  "firestNumber": 4,
+  "secondNumber": 4,
+  "result": 0,
+  "operation": "-",
+  "createdAt": {
+    "$date": "2022-03-30T21:04:11.028Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6244c5cc346debc17199c5c5"
+  },
+  "firestNumber": 4,
+  "secondNumber": 4,
+  "result": 16,
+  "operation": "*",
+  "createdAt": {
+    "$date": "2022-03-30T21:04:12.838Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6244c5cf346debc17199c5c7"
+  },
+  "firestNumber": 4,
+  "secondNumber": 4,
+  "result": 1,
+  "operation": "/",
+  "createdAt": {
+    "$date": "2022-03-30T21:04:15.761Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6244ccba1cae4acd59a13d49"
+  },
+  "firestNumber": 2,
+  "secondNumber": 2,
+  "result": 4,
+  "operation": "+",
+  "createdAt": {
+    "$date": "2022-03-30T21:33:46.695Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6244cd931cae4acd59a13d4b"
+  },
+  "firestNumber": 8,
+  "secondNumber": 4,
+  "result": 12,
+  "operation": "+",
+  "createdAt": {
+    "$date": "2022-03-30T21:37:23.589Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6244cd961cae4acd59a13d4d"
+  },
+  "firestNumber": 8,
+  "secondNumber": 4,
+  "result": 4,
+  "operation": "-",
+  "createdAt": {
+    "$date": "2022-03-30T21:37:26.537Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6244cd9a1cae4acd59a13d4f"
+  },
+  "firestNumber": 8,
+  "secondNumber": 4,
+  "result": 32,
+  "operation": "*",
+  "createdAt": {
+    "$date": "2022-03-30T21:37:30.866Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6244cd9d1cae4acd59a13d51"
+  },
+  "firestNumber": 8,
+  "secondNumber": 4,
+  "result": 2,
+  "operation": "/",
+  "createdAt": {
+    "$date": "2022-03-30T21:37:33.289Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6244cfc71cae4acd59a13d53"
+  },
+  "firestNumber": 10,
+  "secondNumber": 5,
+  "result": 15,
+  "operation": "+",
+  "createdAt": {
+    "$date": "2022-03-30T21:46:47.680Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6244cfca1cae4acd59a13d55"
+  },
+  "firestNumber": 10,
+  "secondNumber": 5,
+  "result": 5,
+  "operation": "-",
+  "createdAt": {
+    "$date": "2022-03-30T21:46:50.877Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6244cfcc1cae4acd59a13d57"
+  },
+  "firestNumber": 10,
+  "secondNumber": 5,
+  "result": 50,
+  "operation": "*",
+  "createdAt": {
+    "$date": "2022-03-30T21:46:52.899Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6244cfcf1cae4acd59a13d59"
+  },
+  "firestNumber": 10,
+  "secondNumber": 5,
+  "result": 2,
+  "operation": "/",
+  "createdAt": {
+    "$date": "2022-03-30T21:46:55.397Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6244d10c546e0b8b1a6b165c"
+  },
+  "firestNumber": 12,
+  "secondNumber": 6,
+  "result": 18,
+  "operation": "+",
+  "createdAt": {
+    "$date": "2022-03-30T21:52:12.181Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6244d145546e0b8b1a6b165e"
+  },
+  "firestNumber": 12,
+  "secondNumber": 6,
+  "result": 6,
+  "operation": "-",
+  "createdAt": {
+    "$date": "2022-03-30T21:53:09.648Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6244d1b5546e0b8b1a6b1660"
+  },
+  "firestNumber": 12,
+  "secondNumber": 6,
+  "result": 72,
+  "operation": "*",
+  "createdAt": {
+    "$date": "2022-03-30T21:55:01.179Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6244d1c0546e0b8b1a6b1662"
+  },
+  "firestNumber": 12,
+  "secondNumber": 6,
+  "result": 2,
+  "operation": "/",
+  "createdAt": {
+    "$date": "2022-03-30T21:55:12.230Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6244d248546e0b8b1a6b1664"
+  },
+  "firestNumber": 16,
+  "secondNumber": 2,
+  "result": 18,
+  "operation": "+",
+  "createdAt": {
+    "$date": "2022-03-30T21:57:28.122Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6244d24a546e0b8b1a6b1666"
+  },
+  "firestNumber": 16,
+  "secondNumber": 2,
+  "result": 14,
+  "operation": "-",
+  "createdAt": {
+    "$date": "2022-03-30T21:57:30.714Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6244d24d546e0b8b1a6b1668"
+  },
+  "firestNumber": 16,
+  "secondNumber": 2,
+  "result": 32,
+  "operation": "*",
+  "createdAt": {
+    "$date": "2022-03-30T21:57:33.038Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6244d24f546e0b8b1a6b166a"
+  },
+  "firestNumber": 16,
+  "secondNumber": 2,
+  "result": 8,
+  "operation": "/",
+  "createdAt": {
+    "$date": "2022-03-30T21:57:35.134Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6244d376546e0b8b1a6b166c"
+  },
+  "firestNumber": 21,
+  "secondNumber": 21,
+  "result": 42,
+  "operation": "+",
+  "createdAt": {
+    "$date": "2022-03-30T22:02:30.586Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "624b8fdfe901af869f591671"
+  },
+  "firestNumber": 5,
+  "secondNumber": 5,
+  "result": 10,
+  "operation": "+",
+  "createdAt": {
+    "$date": "2022-04-05T00:39:59.650Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6251f0117fb69bfeec3ea3fe"
+  },
+  "firestNumber": 4,
+  "secondNumber": 2,
+  "result": 6,
+  "operation": "+",
+  "createdAt": {
+    "$date": "2022-04-09T20:44:01.499Z"
+  },
+  "__v": 0
+}]

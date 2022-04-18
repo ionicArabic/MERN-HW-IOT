@@ -42,28 +42,28 @@ class HISTORY extends React.Component<any, any> {
       
   }
   
-  byOperationClick() {
+      byOperationClick() {
         
-    let request = {
-      method: 'POST',
-      headers: {
-      'Content-Type': 'application/json'
-      },
-      body: JSON.stringify(this.state.byOperation)
-  }
-  fetch('http://localhost:3000/byoperation', request)
-  .then(res => res.json())
-  .then(data => {
-      console.log(data);
-      this.setState({
-          historyByOperation: data
-      });
+        let request = {
+          method: 'POST',
+          headers: {
+          'Content-Type': 'application/json'
+          },
+          body: JSON.stringify(this.state.byOperation)
+        }
+        fetch('http://localhost:3000/byoperation', request)
+        .then(res => res.json())
+        .then(data => {
+            console.log(data);
+            this.setState({
+                historyByOperation: data
+            });
+            
+        })
+        
+        .catch(err => console.log(err));
       
-  })
-  
-  .catch(err => console.log(err));
-  
-}
+    }
       
     componentDidMount() {
         
@@ -152,7 +152,7 @@ class HISTORY extends React.Component<any, any> {
           })}
         </ul>
         
-        <h1 style={{padding: 10}}> Operation by operation : </h1>
+        <h1 style={{padding: 10}}> List by operation: </h1>
           <ul>
           {this.state.historyByOperation.map(opr => {
               let localDate = new Date(opr.createdAt);
@@ -170,17 +170,40 @@ class HISTORY extends React.Component<any, any> {
           })}
         </ul>
         
+        <h1 style={{padding: 10}}> List by date: </h1>
+          <ul>
+          {this.state.historyByDate.map(opr => {
+              let localDate = new Date(opr.createdAt);
+                let date = localDate.toLocaleDateString();
+                let time = localDate.toLocaleTimeString();
+                
+            return <li key={`${opr._id}`}>
+                Date: {date},
+                Time: {time},
+                Operation: {opr.operation},
+                Number1: {opr.firestNumber}, 
+                Number2: {opr.secondNumber},
+                Result: {opr.result}
+                </li>
+          })}
+        </ul>
+        
         <div style={{alignItems:'center',justifyContent:'center', display:'flex'}}>
-        <Button style={styleButton}  onClick={() => {
-  this.byDateClick()
-  }}>Show operations on spacific Date</Button>
-  <Button style={styleButton}  onClick={() => {
-  this.byOperationClick()
-  }}>Show operations on spacific Operation</Button>
+        <Button 
+          style={styleButton}  
+          onClick={() => {this.byDateClick()}}
+          >Show operations on spacific Date
+          </Button>
+          
+          <Button
+            style={styleButton}
+            onClick={() => {this.byOperationClick()}}
+          >Show operations on spacific Operation
+          </Button>
           </div>   
           </div>
          </section> 
-         );
+         )
 }}
 
 export default HISTORY;

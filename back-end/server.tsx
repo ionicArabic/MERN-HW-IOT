@@ -4,7 +4,7 @@ const app = express();
 const cors = require('cors');
 const port = process.env.PORT || 3000;
 
-const monoose = require('mongoose');
+const monoose = require('mongoose'); 
 monoose.connect('mongodb://localhost/calculator');
 
 const Calculator_Schema = new monoose.Schema({
@@ -25,13 +25,13 @@ app.get('/', (req, res) => {
 
 app.use(express.urlencoded({extended: true})); // for parsing application/x-www-form-urlencoded
 app.use(express.json());
-app.use(cors());
+app.use(cors()); // for allowing cross-origin requests
 
 
 
 app.post('/add', (req, res) => {
-    let x = req.body.number1;
-    let y = req.body.number2;
+    let x = req.body.num1;
+    let y = req.body.num2;
     let result = Number( x ) + Number( y );
     console.log(result);
     
@@ -48,8 +48,8 @@ app.post('/add', (req, res) => {
 });
 
 app.post('/sub', (req, res) => {
-    let x = req.body.number1;
-    let y = req.body.number2;
+    let x = req.body.num1;
+    let y = req.body.num2;
     let result = Number( x ) - Number( y );
     console.log(result);
     
@@ -67,8 +67,8 @@ app.post('/sub', (req, res) => {
 });
 
 app.post('/mul', (req, res) => {
-    let x = req.body.number1;
-    let y = req.body.number2;
+    let x = req.body.num1;
+    let y = req.body.num2;
     let result = Number( x ) * Number( y );
     console.log(result);
     
@@ -86,8 +86,8 @@ app.post('/mul', (req, res) => {
 });
 
 app.post('/div', (req, res) => {
-    let x = req.body.number1;
-    let y = req.body.number2;
+    let x = req.body.num1;
+    let y = req.body.num2;
     if (y == 0) {
         res.send({operation:"div",result: 'Error... division by zero!'});
     } else {

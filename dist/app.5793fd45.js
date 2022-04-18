@@ -76077,7 +76077,7 @@ function MyForm() {
     });
     setErr('');
     setResult('');
-    console.log(numbers);
+    console.log(event.target.value);
   };
 
   var handleSubmit = function handleSubmit(event) {
@@ -76456,7 +76456,18 @@ function (_super) {
       style: {
         padding: 10
       }
-    }, " Operation by operation : "), /*#__PURE__*/React.createElement("ul", null, this.state.historyByOperation.map(function (opr) {
+    }, " List by operation: "), /*#__PURE__*/React.createElement("ul", null, this.state.historyByOperation.map(function (opr) {
+      var localDate = new Date(opr.createdAt);
+      var date = localDate.toLocaleDateString();
+      var time = localDate.toLocaleTimeString();
+      return /*#__PURE__*/React.createElement("li", {
+        key: "".concat(opr._id)
+      }, "Date: ", date, ", Time: ", time, ", Operation: ", opr.operation, ", Number1: ", opr.firestNumber, ", Number2: ", opr.secondNumber, ", Result: ", opr.result);
+    })), /*#__PURE__*/React.createElement("h1", {
+      style: {
+        padding: 10
+      }
+    }, " List by date: "), /*#__PURE__*/React.createElement("ul", null, this.state.historyByDate.map(function (opr) {
       var localDate = new Date(opr.createdAt);
       var date = localDate.toLocaleDateString();
       var time = localDate.toLocaleTimeString();
@@ -76748,7 +76759,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "52663" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50969" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
